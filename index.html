@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arquitectura de la nube</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+
+
+    <!--
     <header>
         <h1>Monitor</h1>
         <nav>
@@ -18,80 +21,160 @@
             </ul>
         </nav>
     </header>
+-->
 
-    <main>
-            <h2>BenQ PD2705U 27" LED IPS UltraHD 4K</h2>
-            <img src="src/515TZsQRcKL._AC_UF894,1000_QL80_.jpg" alt="BenQ GW2480E 23.8 LED IPS FullHD" height="500" class="imagen">
 
-            <a href="https://www.pccomponentes.com/benq-gw2480e-238-led-ips-fullhd">
-                <button id="miBoton" class="boton" href = >Comprar</button>
-            </a>
-            
-            <p>En la misma gama que el monitor anterior tenemos el BenQ PD2705U, otro monitor de 27 pulgadas con resolución 4K ideal para programadores.
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Tienda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Carrito</a>
+                    </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
 
-                Este modelo destaca por cubrir el 100 % del sRGB, ofrecer una coherencia de color de Delta E inferior a 3 y conectarse a través de USB-C. Esto garantiza una representación precisa de los colores, lo cual es especialmente útil para desarrolladores que también trabajan con diseño o interfaces gráficas. Muchos compradores comparan su calidad con la pantalla de los iMac, reconocidos mundialmente por este motivo. </p>
+    <!-- Hero Section -->
+    <div class="container-fluid py-5 bg-primary text-white text-center">
+        <h1>Bienvenido a nuestra Tienda</h1>
+        <p>Explora los mejores productos a precios increíbles</p>
+        <a href="#" class="btn btn-light">Comprar Ahora</a>
+    </div>
+    
+    <!-- Productos -->
 
-            <ul>
-                <li>Diagonal de la pantalla: 60,5 cm (23.8")</li>
-                <li>Brillo de la pantalla (típico): 250 cd / m²</li>
-                <li>Resolución de la pantalla: FullHD 1920 x 1080 Píxeles</li>
-                <li>Tiempo de respuesta: 5 ms</li>
-                <li>Tecnología de visualización: LED</li>
-                <li>Tipo de pantalla: IPS</li>
-                <li>Número de colores de la pantalla: 16,78 millones de colores</li>
-                <li>Relación de aspecto nativa: 16:9</li>
-                <li>Tamaño de pixel: 0,274 x 0,274 mm</li>
-                <li>Densidad del pixel: 93 ppp</li>
-                <li>Puertos e Interfaces</li>
-            </ul>
+    <div class="container py-5"></div>
 
-            <h2>BenQ PD2705U 27" LED IPS UltraHD 4K</h2>
-            <img src="src/600.png" alt="MSI G27C4X 27 LED FullHD 250Hz FreeSync Premium Curvo" height="500" class="imagen">
+        <div class="row">
 
-            <a href="https://www.pccomponentes.com/msi-g27c4x-27-led-fullhd-250hz-freesync-premium-curvo">
-                <button id="miBoton" class="boton">Comprar</button>
-            </a>
-            
-            <p>Bajando un poco de presupuesto, y, por lo tanto, también el nivel, te recomiendo el monitor curvo MSI G27C4X. Aunque está diseñado principalmente para gaming, sus características lo hacen también muy adecuado para programación.</p>
+            <!-- BenQ -->
 
-            <ul>
-                <lli>Tipo/Tamaño 27" (69 cm)</lli>
-                <lli>Área de visualización activa (mm) 597,888 (H) x 336,312 (V)</lli>
-                <lli>Curvatura 1500R</lli>
-                <lli>Tipo de panel VA</lli>
-                <lli>Resolución 1920 x 1080 (FHD)</lli>
-                <lli>Distancia entre píxeles 0,3114 (H) x 0,3114 (V)</lli>
-                <lli>Relación de aspecto 16:9</lli>
-                <lli>Brillo (nits) 300</lli>
-                <lli>Relación de contraste 3000:1</lli>
-                <lli>DCR (Contraste Dinámico)</lli>
-            </ul>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="src/benq.png" class="card-img-top" alt="Producto 1" alt="Responsive Image">
+                    <div class="card-body">
+                        <h5 class="card-title">BenQ GW2480E 23.8" LED IPS FullHD</h5>
+                        <p class="card-text">Descripción breve del producto 1.</p>
+                        <a href="https://www.pccomponentes.com/benq-gw2480e-238-led-ips-fullhd" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
 
-            <h2>BenQ PD2705U 27" LED IPS UltraHD 4K</h2>
-            <img src="src/B-1024x576.jpg" alt="Monitor ASUS ROG Strix XG27UCS 27" height="500" class="imagen">
+            <!-- Msi -->
 
-            <a href="https://www.pccomponentes.com/monitor-asus-rog-strix-xg27ucs-27-led-fast-ips-ultrahd-4k-160hz-g-sync-compatible">
-                <button id="miBoton" class="boton">Comprar</button>
-            </a>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="src/msi.jpg" class="card-img-top" alt="Producto 2" alt="Responsive Image">
+                    <div class="card-body">
+                        <h5 class="card-title">MSI g27c4x 27 led fullHD</h5>
+                        <p class="card-text">Descripción breve del producto 1.</p>
+                        <a href="https://www.pccomponentes.com/msi-g27c4x-27-led-fullhd-250hz-freesync-premium-curvo" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
 
-            <p> Volviendo a los monitores de alta gama, otra de los más recomendados por los programadores es el ASUS ROG Strix XG27UCS. Este monitor de 27 pulgadas ofrece una resolución 4K UHD (3840 x 2160) con un panel IPS que garantiza colores precisos y ángulos de visión amplios. </p>
+            <!-- Asus -->
 
-            <ul>
-                <li>Diagonal de la pantalla: 68,6 cm (27")</li>
-                <li>Resolución de la pantalla: 3840 x 2160 Pixeles</li>
-                <li>Tipo HD: 4K Ultra HD</li>
-                <li>Tipo de pantalla: Fast IPS</li>
-                <li>Retroiluminación LED: Si</li>
-                <li>Tiempo de respuesta: 1 ms</li>
-                <li>Razón de contraste (típica): 1000:1</li>
-                <li>Máxima velocidad de actualización: 160 Hz</li>
-                <li>Ángulo de visión, horizontal: 178°</li>
-                <li>Ángulo de visión, vertical: 178°</li>
-                <li>Número de colores de la pantalla: 1,073 billones de colores</li>
-                <li>Tamaño de pixel: 0,155 x 0,155 mm</li>
-                <li>Tecnología HDR (High Dynamic Range, Alto rango dinámico): DisplayHDR 400</li>
-                <li>Cobertura sRGB (típica): 130%</li>
-            </ul>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="src/asus.png" class="card-img-top" alt="Producto 3" alt="Responsive Image">
+                    <div class="card-body">
+                        <h5 class="card-title">ASUS ROG Strix XG27UCS 27</h5>
+                        <p class="card-text">Descripción breve del producto 1.</p>
+                        <a href="https://www.pccomponentes.com/monitor-asus-rog-strix-xg27ucs-27-led-fast-ips-ultrahd-4k-160hz-g-sync-compatible" class="btn btn-primary">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+    
+
+
+
+    <!--
+    <p>En la misma gama que el monitor anterior tenemos el BenQ PD2705U, otro monitor de 27 pulgadas con resolución 4K ideal para programadores.
+
+        Este modelo destaca por cubrir el 100 % del sRGB, ofrecer una coherencia de color de Delta E inferior a 3 y conectarse a través de USB-C. Esto garantiza una representación precisa de los colores, lo cual es especialmente útil para desarrolladores que también trabajan con diseño o interfaces gráficas. Muchos compradores comparan su calidad con la pantalla de los iMac, reconocidos mundialmente por este motivo. </p>
+
+    <ul>
+        <li>Diagonal de la pantalla: 60,5 cm (23.8")</li>
+        <li>Brillo de la pantalla (típico): 250 cd / m²</li>
+        <li>Resolución de la pantalla: FullHD 1920 x 1080 Píxeles</li>
+        <li>Tiempo de respuesta: 5 ms</li>
+        <li>Tecnología de visualización: LED</li>
+        <li>Tipo de pantalla: IPS</li>
+        <li>Número de colores de la pantalla: 16,78 millones de colores</li>
+        <li>Relación de aspecto nativa: 16:9</li>
+        <li>Tamaño de pixel: 0,274 x 0,274 mm</li>
+        <li>Densidad del pixel: 93 ppp</li>
+        <li>Puertos e Interfaces</li>
+    </ul>
+
+    <h2>BenQ PD2705U 27" LED IPS UltraHD 4K</h2>
+    <img src="src/600.png" alt="MSI G27C4X 27 LED FullHD 250Hz FreeSync Premium Curvo" height="500" class="imagen">
+
+    <a href="https://www.pccomponentes.com/msi-g27c4x-27-led-fullhd-250hz-freesync-premium-curvo">
+        <button id="miBoton" class="boton">Comprar</button>
+    </a>
+    
+    <p>Bajando un poco de presupuesto, y, por lo tanto, también el nivel, te recomiendo el monitor curvo MSI G27C4X. Aunque está diseñado principalmente para gaming, sus características lo hacen también muy adecuado para programación.</p>
+
+    <ul>
+        <lli>Tipo/Tamaño 27" (69 cm)</lli>
+        <lli>Área de visualización activa (mm) 597,888 (H) x 336,312 (V)</lli>
+        <lli>Curvatura 1500R</lli>
+        <lli>Tipo de panel VA</lli>
+        <lli>Resolución 1920 x 1080 (FHD)</lli>
+        <lli>Distancia entre píxeles 0,3114 (H) x 0,3114 (V)</lli>
+        <lli>Relación de aspecto 16:9</lli>
+        <lli>Brillo (nits) 300</lli>
+        <lli>Relación de contraste 3000:1</lli>
+        <lli>DCR (Contraste Dinámico)</lli>
+    </ul>
+
+    <h2>BenQ PD2705U 27" LED IPS UltraHD 4K</h2>
+    <img src="src/B-1024x576.jpg" alt="Monitor ASUS ROG Strix XG27UCS 27" height="500" class="imagen">
+
+    <a href="https://www.pccomponentes.com/monitor-asus-rog-strix-xg27ucs-27-led-fast-ips-ultrahd-4k-160hz-g-sync-compatible">
+        <button id="miBoton" class="boton">Comprar</button>
+    </a>
+
+    <p> Volviendo a los monitores de alta gama, otra de los más recomendados por los programadores es el ASUS ROG Strix XG27UCS. Este monitor de 27 pulgadas ofrece una resolución 4K UHD (3840 x 2160) con un panel IPS que garantiza colores precisos y ángulos de visión amplios. </p>
+
+    <ul>
+        <li>Diagonal de la pantalla: 68,6 cm (27")</li>
+        <li>Resolución de la pantalla: 3840 x 2160 Pixeles</li>
+        <li>Tipo HD: 4K Ultra HD</li>
+        <li>Tipo de pantalla: Fast IPS</li>
+        <li>Retroiluminación LED: Si</li>
+        <li>Tiempo de respuesta: 1 ms</li>
+        <li>Razón de contraste (típica): 1000:1</li>
+        <li>Máxima velocidad de actualización: 160 Hz</li>
+        <li>Ángulo de visión, horizontal: 178°</li>
+        <li>Ángulo de visión, vertical: 178°</li>
+        <li>Número de colores de la pantalla: 1,073 billones de colores</li>
+        <li>Tamaño de pixel: 0,155 x 0,155 mm</li>
+        <li>Tecnología HDR (High Dynamic Range, Alto rango dinámico): DisplayHDR 400</li>
+        <li>Cobertura sRGB (típica): 130%</li>
+    </ul>
+-->
 
             <!--
     <h3>Software como servicio (SaaS)</h3>
@@ -131,10 +214,7 @@
 
             <img src="src/centros-de-datos-fisicos.webp" alt="IaaS">
             -->
-            
-        
-        </article>
-    </main>
+
 
     <aside>
         <h3>Artículos Relacionados</h3>
@@ -147,5 +227,6 @@
     <footer>
         <p>Erick Andres Baez Cruz</p>
     </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
